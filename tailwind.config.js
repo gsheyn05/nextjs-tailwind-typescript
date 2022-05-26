@@ -4,7 +4,20 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      keyframes:{
+        wave:{
+        to:{
+          "margin-left":"-51%"
+        }
+      }
+
+      }
+    },
+    animation: {
+      wave: "wave 3s ease-in-out infinite"
+    }
+
   },
   plugins: [],
 }
