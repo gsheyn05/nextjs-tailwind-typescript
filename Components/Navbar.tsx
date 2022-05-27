@@ -48,7 +48,7 @@ export const Navbar : React.FC = () =>{
         
         <div className="container mx-auto px-5 max-w-5xl flex flex-row justify-end"> 
         
-            <button  onClick={() => setTheme(resolvedTheme === 'light' ? 'dark' : 'light')}
+            <button  onClick={() => setTheme(resolvedTheme === 'dark' ? 'light' : 'dark')}
           >
             {resolvedTheme === 'dark' ? (
               <SunIcon className="h-5 w-5" />
