@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  * {
+    --tw-backdrop-sepia:  ;
+    --will-be-deleted: ; 
+  }
+}
+
+
 html,
 body {
   padding: 0;
