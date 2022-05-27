@@ -9,7 +9,7 @@ return(
         <Container>
             <br/>
   <div className="p-6 border border-gray-300 sm:rounded-md">
-    <form method="POST" action="https://herotofu.com/start">
+    <form method="POST" action="https://public.herotofu.com/v1/323b3b50-de08-11ec-a769-932fb222f6cf">
       <label className="block mb-6">
         <span className="text-blue-600">Your name</span>
         <input

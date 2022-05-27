@@ -62,7 +62,7 @@ import Link from "next/link";
         </Link>
                 
                 
-                <div>GOD Bless</div>
+                
               </div>
           </div>
                 
