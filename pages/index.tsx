@@ -22,9 +22,9 @@ const Home: NextPage = () => {
         
         </h1>
         <h2 className="mt-1 text-lg font-semibold leading-tight tracking-tight">
-              Full Stack Developer 
+              Full Stack Engineer 
             </h2>
-            <p className="mt-4 text-base"> Newly Graduated Software Developer passionate in all forms of development! </p>
+            <p className="mt-4 text-base"> Newly Graduated Software Engineer passionate in all forms of development! </p>
     
     </header>
     <div className="flex justify-center items-center mt-6 overflow-hidden">
