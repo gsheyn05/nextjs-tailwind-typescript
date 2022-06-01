@@ -13,10 +13,10 @@ export const Navbar : React.FC = () =>{
     const router = useRouter();
 
     return(
-      <Container>
+      
 <nav className="flex flex-row items-center justify-center top-background sticky w-full h-20 z-50 top-0 mb-8 backdrop-blur-2xl">
       
-      <div className="container mx-auto  max-w-5xl flex flex-row justify-start">
+      <div className="container mx-auto px-1 max-w-5xl flex flex-row justify-start">
         <div className="flex flex-row space-x-7">
         <div>
         <Link href="/">
@@ -67,6 +67,6 @@ export const Navbar : React.FC = () =>{
 
           </nav>
 
-          </Container>
+          
     );
 };
