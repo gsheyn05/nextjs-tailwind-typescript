@@ -47,7 +47,7 @@ const About: NextPage = () => {
         </header>
         
         <p className="mt-3 font-bold"> Short decription of my experience for more detail refer to 
-        <a  href="/assets/GSRESUMELINKWORKS.pdf" 
+        <a  href="/assets/GSRESUMELINKJune.pdf" 
             target="_blank"
             rel="noopener noreferrer"
             className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600"> MY RESUME </a></p>
