@@ -7,9 +7,22 @@ import {Layout} from "../../Components/Layout"
 import { Container } from '../../Components/container'
 import { TimeLine } from '../../Components/TimeLine'
 import Link from 'next/link';
+import { Carousel } from '../../Components/Carousel2'
+
+import { Footer } from '../../Components/Footer'
+
+import PR from "../../public/assets/PuertoRico.jpg"
+import IT from "../../public/assets/RomeItaly.jpg"
+import FR from "../../public/assets/ParisFrance.jpg"
+import SW from "../../public/assets/Switzerland.jpg"
+
+
+
 
 
 const About: NextPage = () => {
+    const countries=[PR,IT,FR,SW]
+
     return (
     <Layout>
       <Navbar />
@@ -42,10 +55,26 @@ const About: NextPage = () => {
         <TimeLine/>
       
       </section>
+      
+      <section>
+      <header className="flex flex-row justify-between items-center mt-12">
+        <h2 className="text-3xl font-extrabold leading-tight">
+          Travel
+        </h2>
+        </header>
+        <p className="mt-3 font-bold"> Some of my favorite travel destinations!</p>
+        
+        <Carousel items={countries}/>
+        
+      
+      </section>
+      
+   
 
 
       
       </Container>
+      <Footer/>
           </Layout>
     )
   }
